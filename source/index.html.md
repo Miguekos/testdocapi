@@ -2057,5 +2057,5 @@ Para acceder a la documentacion de [Catalogos](https://1drv.ms/x/s!AsZYY7Npgfw2l
 | MaterialdeViviendaCliente          | "N"                            | Material de Vivienda Cliente           |
 
 <!-- <aside class="success">
-Remember — a happy kitten is an authenticated kitten!
+Remember — a happy AccesoCrediticio is an authenticated AccesoCrediticio!
 </aside> -->
