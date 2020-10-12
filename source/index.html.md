@@ -1997,7 +1997,7 @@ axios(config)
 }
 ```
 
-This endpoint retrieves all kittens.
+Para acceder a la documentacion de [Catalogos](https://1drv.ms/x/s!AsZYY7Npgfw2likKLlUXnRGyFTBR?e=NGPtoa).
 
 ### HTTP Request
 
