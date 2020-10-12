@@ -2003,58 +2003,58 @@ This endpoint retrieves all kittens.
 
 `POST https://kong-prueba.acceso.com.pe/apiaccesos/consumo/4`
 
-### Query Parameters
+### Query Parametos
 
-| Parameter                          | Default                        | Description                        |
-| ---------------------------------- | ------------------------------ | ---------------------------------- |
-| Producto                           | 14                             | Producto                           |
-| SubProducto                        | 22                             | SubProducto                        |
-| Concesionario                      | 590                            | Concesionario                      |
-| UbigeodelConcesionerio             | "150101"                       | UbigeodelConcesionerio             |
-| CentrodeOperacion                  | 5                              | CentrodeOperacion                  |
-| CentrodeFinanciamiento             | 3                              | CentrodeFinanciamiento             |
-| Operador                           | -1                             | Operador                           |
-| TipodeDocumentodeIdentidadCliente  | "D"                            | TipodeDocumentodeIdentidadCliente  |
-| DocumentodeIdentidadCliente        | "47040599"                     | DocumentodeIdentidadCliente        |
-| NombresdelCliente                  | "Luis FernandO"                | NombresdelCliente                  |
-| ApellidoPaternodelCliente          | "Jaramillo"                    | ApellidoPaternodelCliente          |
-| ApellidoMaternodelCliente          | "Ramirez"                      | ApellidoMaternodelCliente          |
-| FechadeNacimientoCliente           | "1989-03-31"                   | FechadeNacimientoCliente           |
-| GeneroCliente                      | "M"                            | GeneroCliente                      |
-| EstadoCivilCliente                 | "CO"                           | EstadoCivilCliente                 |
-| TelefonoCliente                    | "981213378"                    | TelefonoCliente                    |
-| CorreoElectronicoCliente           | "luisa.jaramillo@autoniza.com" | CorreoElectronicoCliente           |
-| CargaFamiliarCliente               | 1                              | CargaFamiliarCliente               |
-| FechadeIngresoLaboraldelClienteEco | "2018-11-01"                   | FechadeIngresoLaboraldelClienteEco |
-| NumerodecuotasSim                  | 72                             | NumerodecuotasSim                  |
-| FechadeactivacionSim               | "2020-10-08"                   | FechadeactivacionSim               |
-| FechadeprimervencimientoSim        | "2020-12-24"                   | FechadeprimervencimientoSim        |
-| FormalidadLaboralCom               | "DF"                           | FormalidadLaboralCom               |
-| NiveldeEducacionCom                | "UI"                           | NiveldeEducacionCom                |
-| PEPCom                             | 2                              | PEPCom                             |
-| DomicilioLatitudCom                | -12.0047269                    | DomicilioLatitudCom                |
-| DomicilioLongitudCom               | -77.0521101                    | DomicilioLongitudCom               |
-| UbigeodelDomicilioCom              | "150112"                       | UbigeodelDomicilioCom              |
-| MarcaVehiculoSim                   | 11                             | MarcaVehiculoSim                   |
-| ModeloVehiculoSim                  | 4545                           | ModeloVehiculoSim                  |
-| CuotaInicial                       | 3000                           | CuotaInicial                       |
-| TipodeDocumentodeIdentidadConyuge  | "D"                            | TipodeDocumentodeIdentidadConyuge  |
-| DocumentodeIdentidadConyuge        | "47040597"                     | DocumentodeIdentidadConyuge        |
-| NombresdelConyuge                  | "47040597"                     | NombresdelConyuge                  |
-| ApellidoPaternodelConyuge          | "47040597"                     | ApellidoPaternodelConyuge          |
-| ApellidoMaternodelConyuge          | "47040597"                     | ApellidoMaternodelConyuge          |
-| FechadeNacimientoConyuge           | "1991-11-15"                   | FechadeNacimientoConyuge           |
-| IngresoNetoTitularSEco             | 4000                           | IngresoNetoTitularSEco             |
-| LicenciaDeConducirCliente          | "A1"                           | LicenciaDeConducirCliente          |
-| FechaExpedicionBreveteCliente      | "2021-11-15"                   | FechaExpedicionBreveteCliente      |
-| MedidadeLentesCliente              | 0.00333                        | MedidadeLentesCliente              |
-| CodigoAccesorioAdicional           | 5                              | CodigoAccesorioAdicional           |
-| ModalidadDeServicio                | 1                              | ModalidadDeServicio                |
-| TipoSeguroVida                     | 1                              | TipoSeguroVida                     |
-| AseguradoraSim                     | 11                             | AseguradoraSim                     |
-| DescuentoSim                       | 0.0                            | DescuentoSim                       |
-| TipodeResidenciaCliente            | "P"                            | TipodeResidenciaCliente            |
-| MaterialdeViviendaCliente          | "N"                            | MaterialdeViviendaCliente          |
+| Parameto                           | Default                        | Description                            |
+| ---------------------------------- | ------------------------------ | -------------------------------------- |
+| Producto                           | 14                             | Producto                               |
+| SubProducto                        | 22                             | Sub-Producto                           |
+| Concesionario                      | 590                            | Concesionario                          |
+| UbigeodelConcesionerio             | "150101"                       | Ubigeo del Concesionerio               |
+| CentrodeOperacion                  | 5                              | Centrode Operacion                     |
+| CentrodeFinanciamiento             | 3                              | Centrode Financiamiento                |
+| Operador                           | -1                             | Operador                               |
+| TipodeDocumentodeIdentidadCliente  | "D"                            | Tipode Documentode Identidad Cliente   |
+| DocumentodeIdentidadCliente        | "47040599"                     | Documentode Identidad Cliente          |
+| NombresdelCliente                  | "Luis FernandO"                | Nombres del Cliente                    |
+| ApellidoPaternodelCliente          | "Jaramillo"                    | Apellido Paterno del Cliente           |
+| ApellidoMaternodelCliente          | "Ramirez"                      | Apellido Materno del Cliente           |
+| FechadeNacimientoCliente           | "1989-03-31"                   | Fechade Nacimiento Cliente             |
+| GeneroCliente                      | "M"                            | Genero Cliente                         |
+| EstadoCivilCliente                 | "CO"                           | Estado Civil Cliente                   |
+| TelefonoCliente                    | "981213378"                    | Telefono Cliente                       |
+| CorreoElectronicoCliente           | "luisa.jaramillo@autoniza.com" | Correo Electronico Cliente             |
+| CargaFamiliarCliente               | 1                              | Carga Familiar Cliente                 |
+| FechadeIngresoLaboraldelClienteEco | "2018-11-01"                   | Ingreso Variable del Cliente (Mensual) |
+| NumerodecuotasSim                  | 72                             | Nombres del Cliente                    |
+| FechadeactivacionSim               | "2020-10-08"                   | Fecha de Activación                    |
+| FechadeprimervencimientoSim        | "2020-12-24"                   | Fecha de Primer Vencimiento            |
+| FormalidadLaboralCom               | "DF"                           | Formalidad Laboral                     |
+| NiveldeEducacionCom                | "UI"                           | Nivel de Educación                     |
+| PEPCom                             | 2                              | PEP                                    |
+| DomicilioLatitudCom                | -12.0047269                    | Domicilio – Latitud                    |
+| DomicilioLongitudCom               | -77.0521101                    | Domicilio – Longitud                   |
+| UbigeodelDomicilioCom              | "150112"                       | Ubigeo del Domicilio                   |
+| MarcaVehiculoSim                   | 11                             | Marca Vehiculo                         |
+| ModeloVehiculoSim                  | 4545                           | Modelo Vehiculo                        |
+| CuotaInicial                       | 3000                           | Cuota Inicial                          |
+| TipodeDocumentodeIdentidadConyuge  | "D"                            | Tipo de Documento de Identidad Conyuge |
+| DocumentodeIdentidadConyuge        | "47040597"                     | Documento de Identidad Conyuge         |
+| NombresdelConyuge                  | "47040597"                     | Nombres del Conyuge                    |
+| ApellidoPaternodelConyuge          | "47040597"                     | Apellido Paterno del Conyuge           |
+| ApellidoMaternodelConyuge          | "47040597"                     | Apellido Materno del Conyuge           |
+| FechadeNacimientoConyuge           | "1991-11-15"                   | Fecha de Nacimiento Conyuge            |
+| IngresoNetoTitularSEco             | 4000                           | Ingreso Neto Titular                   |
+| LicenciaDeConducirCliente          | "A1"                           | Licencia De Conducir Cliente           |
+| FechaExpedicionBreveteCliente      | "2021-11-15"                   | Fecha Expedicion Brevete Cliente       |
+| MedidadeLentesCliente              | 0.00333                        | Medida de Lentes Cliente               |
+| CodigoAccesorioAdicional           | 5                              | Codigo Accesorio Adicional             |
+| ModalidadDeServicio                | 1                              | Modalidad De Servicio                  |
+| TipoSeguroVida                     | 1                              | Tipo Seguro Vida                       |
+| AseguradoraSim                     | 11                             | Aseguradora                            |
+| DescuentoSim                       | 0.0                            | Descuento                              |
+| TipodeResidenciaCliente            | "P"                            | Tipo de Residencia Cliente             |
+| MaterialdeViviendaCliente          | "N"                            | Material de Vivienda Cliente           |
 
 <!-- <aside class="success">
 Remember — a happy kitten is an authenticated kitten!
