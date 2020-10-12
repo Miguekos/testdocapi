@@ -296,7 +296,7 @@
       </span>
     </a>
     <div class="toc-wrapper">
-      <img src="images/logo-6104da6b.png" class="logo" alt="" />
+      <img src="images/logo-8ed2f9be.png" class="logo" alt="" />
         <div class="lang-selector">
               <a href="#" data-language-name="javascript">javascript</a>
         </div>
@@ -323,10 +323,6 @@
             <a href="#errors" class="toc-h1 toc-link" data-title="Errors">Errors</a>
           </li>
       </ul>
-        <ul class="toc-footer">
-            <li><a href='#'>Sign Up for a Developer Key</a></li>
-            <li><a href='https://github.com/slatedocs/slate'>Documentation Powered by Slate</a></li>
-        </ul>
     </div>
     <div class="page-wrapper">
       <div class="dark-box"></div>
@@ -339,28 +335,22 @@
 <!-- Esta página de documentación de API de ejemplo se creó con [Slate](https://github.com/slatedocs/slate). Siéntase libre de editarlo y utilizarlo como base para la documentación de su propia API. -->
 <h1 id='authentication'>Authentication</h1>
 <blockquote>
-<p>To authorize, use this code:</p>
+<p>Para que tenga acceso debe usar este codigo:</p>
 </blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-</code></pre></div><div class="highlight"><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="p">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-</code></pre></div><div class="highlight"><pre class="highlight shell tab-shell"><code><span class="c"># With shell, you can just pass the correct header with each request</span>
-curl <span class="s2">"api_endpoint_here"</span>
-  <span class="nt">-H</span> <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre></div><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="kd">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">kittn</span><span class="dl">"</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="dl">"</span><span class="s2">meowmeowmeow</span><span class="dl">"</span><span class="p">);</span>
+<div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="kd">var</span> <span class="nx">axios</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">axios</span><span class="dl">"</span><span class="p">);</span>
+<span class="p">...</span>
+<span class="nx">headers</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nl">authorization</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Basic c29sdmVuOnVzWWpiNzkqWiVDa01xQn0=</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">Content-Type</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">application/json</span><span class="dl">"</span><span class="p">,</span>
+<span class="p">}</span>
 </code></pre></div>
 <blockquote>
-<p>Make sure to replace <code>meowmeowmeow</code> with your API key.</p>
+<p>Asegúrese de reemplazar &#39;Basic c29sdmVuOnVzWWpiNzkqWiVDa01xQn0=&#39; por su clave de API.</p>
 </blockquote>
 
-<p>Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our <a href="http://example.com/developers">developer portal</a>.</p>
+<p>Acceso Crediticio utiliza claves de API para permitir el acceso.</p>
 
-<p>Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:</p>
+<p>Acceso Crediticio espera que la clave de API se incluya en todas las solicitudes de API al servidor en un encabezado similar al siguiente:</p>
 
 <p><code>Authorization: Basic c29sdmVuOnVzWWpiNzkqWiVDa01xQn0=</code></p>
 
@@ -368,6 +358,7 @@ curl <span class="s2">"api_endpoint_here"</span>
 Debes solicitar tu tu key del Authorization.
 </aside>
 <h1 id='expedientes'>Expedientes</h1><h2 id='post-evaluar'>POST Evaluar</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="kd">var</span> <span class="nx">axios</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">axios</span><span class="dl">"</span><span class="p">);</span>
+
 <span class="kd">var</span> <span class="nx">data</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span>
   <span class="na">Producto</span><span class="p">:</span> <span class="mi">14</span><span class="p">,</span>
   <span class="na">SubProducto</span><span class="p">:</span> <span class="mi">22</span><span class="p">,</span>
