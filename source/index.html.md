@@ -4,9 +4,9 @@ title: API Reference
 language_tabs: # must be one of https://git.io/vQNgJ
   - javascript
 
-toc_footers:
-  - <a href='#'>Sign Up for a Developer Key</a>
-  - <a href='https://github.com/slatedocs/slate'>Documentation Powered by Slate</a>
+# toc_footers:
+#   - <a href='#'>Sign Up for a Developer Key</a>
+#   - <a href='https://github.com/slatedocs/slate'>Documentation Powered by Slate</a>
 
 includes:
   - errors
@@ -26,37 +26,22 @@ code_clipboard: true
 
 # Authentication
 
-> To authorize, use this code:
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-```
-
-```shell
-# With shell, you can just pass the correct header with each request
-curl "api_endpoint_here"
-  -H "Authorization: meowmeowmeow"
-```
+> Para que tenga acceso debe usar este codigo:
 
 ```javascript
-const kittn = require("kittn");
-
-let api = kittn.authorize("meowmeowmeow");
+var axios = require("axios");
+...
+headers: {
+    authorization: "Basic c29sdmVuOnVzWWpiNzkqWiVDa01xQn0=",
+    "Content-Type": "application/json",
+}
 ```
 
-> Make sure to replace `meowmeowmeow` with your API key.
+> Asegúrese de reemplazar 'Basic c29sdmVuOnVzWWpiNzkqWiVDa01xQn0=' por su clave de API.
 
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
+Acceso Crediticio utiliza claves de API para permitir el acceso.
 
-Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
+Acceso Crediticio espera que la clave de API se incluya en todas las solicitudes de API al servidor en un encabezado similar al siguiente:
 
 `Authorization: Basic c29sdmVuOnVzWWpiNzkqWiVDa01xQn0=`
 
@@ -70,6 +55,7 @@ Debes solicitar tu tu key del Authorization.
 
 ```javascript
 var axios = require("axios");
+
 var data = JSON.stringify({
   Producto: 14,
   SubProducto: 22,
